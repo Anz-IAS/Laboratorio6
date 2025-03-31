@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .active {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Inicio</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="pagina1.html">Página 1</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pagina2.html">Página 2</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="pagina3.html">Página 3</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container mt-4">
+        <h1>Página 3</h1>
+        <p>Esta es la tercera página de la presente actividad</p>
+    
+        <div class="row">
+            <div class="col-md-4"><img src="imagenes/luismi.jpg" class="img-fluid" alt="Imagen 7"></div>
+            <div class="col-md-4"><img src="imagenes/josejose.jpg" class="img-fluid" alt="Imagen 8"></div>
+            <div class="col-md-4"><img src="imagenes/cerati.jpg" class="img-fluid" alt="Imagen 9"></div>
+        </div>
+        
+        <div class="accordion mt-4" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                        Sección Expandible
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show">
+                    <div class="accordion-body">
+                        Sección que se puede expandir!
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <button class="btn btn-danger mt-3">Botón de alerta</button>
+    </div>
+</body>
+</html>
